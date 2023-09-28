@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b628a868-152a-49a6-b5cc-ed2bfcae2005" name="更改" comment="DELETE">
+      <change afterPath="$PROJECT_DIR$/100以内质数.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5.10.2元组添加元素.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5.10.3统计字符串里字符各数量.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5.10.4删除列表里重复数据.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5.7.1青春有你.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9月13日/5.10.1合并list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9月13日/5.4.1十大歌手.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9月13日/实验2.1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9月13日/实验2.2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9月20日/实验3.1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9月20日/实验3.2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9月20日/实验3.3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9月6日/实验1.1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9月6日/实验1.2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/打印棋盘.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/敏感词替换.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/文本进度条.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/检查切换字符串.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/百度百科.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/计算器.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/计算小写字母的数量.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/逢7拍手.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/PythonCourse.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/9月27日/6.9学生管理系统.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/9月27日/实验4.1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/9月27日/实验4.2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/9月27日/实验4.3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/9月27日/实验4.4.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;MystFeng&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="3d256493-b152-4cf9-a712-058abaf6974a" />
+        <option name="url" value="https://github.com/MystFeng/PythonCourse.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2W0s4dINm4UWloOP3fiaJrpfUD8" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/delic/PycharmProjects/PythonCourse",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.new.ui"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "redshift"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\delic\PycharmProjects\PythonCourse" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\delic\PycharmProjects\PythonCourse" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="b628a868-152a-49a6-b5cc-ed2bfcae2005" name="更改" comment="" />
+      <created>1695880641831</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1695880641831</updated>
+      <workItem from="1695880642870" duration="505000" />
+      <workItem from="1695881158357" duration="1962000" />
+    </task>
+    <task id="LOCAL-00001" summary="搬走所有文件">
+      <option name="closed" value="true" />
+      <created>1695881251496</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1695881251496</updated>
+    </task>
+    <task id="LOCAL-00002" summary="搬走所有文件">
+      <option name="closed" value="true" />
+      <created>1695882024061</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1695882024061</updated>
+    </task>
+    <task id="LOCAL-00003" summary="DELETE">
+      <option name="closed" value="true" />
+      <created>1695882381909</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1695882381909</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="569dc76d-6879-4ea0-b0fe-4a55d1d34389" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="569dc76d-6879-4ea0-b0fe-4a55d1d34389">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:C:/Users/delic/PycharmProjects/PythonCourse/.idea" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="搬走所有文件" />
+    <MESSAGE value="DELETE" />
+    <option name="LAST_COMMIT_MESSAGE" value="DELETE" />
+  </component>
+</project>
