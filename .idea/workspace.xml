@@ -4,22 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b628a868-152a-49a6-b5cc-ed2bfcae2005" name="更改" comment="（整理作业文件）">
-      <change afterPath="$PROJECT_DIR$/9月13日/5.10.4删除列表里重复数据.py" afterDir="false" />
+    <list default="true" id="b628a868-152a-49a6-b5cc-ed2bfcae2005" name="更改" comment="（优化）">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/100以内质数.py" beforeDir="false" afterPath="$PROJECT_DIR$/9月6日/100以内质数.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/5.10.2元组添加元素.py" beforeDir="false" afterPath="$PROJECT_DIR$/9月20日/5.10.2元组添加元素.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/5.10.3统计字符串里字符各数量.py" beforeDir="false" afterPath="$PROJECT_DIR$/9月20日/5.10.3统计字符串里字符各数量.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/5.10.4删除列表里重复数据.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/5.7.1青春有你.py" beforeDir="false" afterPath="$PROJECT_DIR$/9月20日/5.7.1青春有你.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/打印棋盘.py" beforeDir="false" afterPath="$PROJECT_DIR$/9月6日/打印棋盘.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/敏感词替换.py" beforeDir="false" afterPath="$PROJECT_DIR$/9月13日/敏感词替换.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/文本进度条.py" beforeDir="false" afterPath="$PROJECT_DIR$/9月6日/文本进度条.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/检查切换字符串.py" beforeDir="false" afterPath="$PROJECT_DIR$/9月13日/检查切换字符串.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/百度百科.py" beforeDir="false" afterPath="$PROJECT_DIR$/9月6日/百度百科.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/计算器.py" beforeDir="false" afterPath="$PROJECT_DIR$/9月6日/计算器.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/计算小写字母的数量.py" beforeDir="false" afterPath="$PROJECT_DIR$/9月13日/计算小写字母的数量.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/逢7拍手.py" beforeDir="false" afterPath="$PROJECT_DIR$/9月6日/逢7拍手.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,27 +41,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/delic/PycharmProjects/PythonCourse",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;ignore_missing_gitignore&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/delic/PycharmProjects/PythonCourse&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "redshift"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;redshift&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\delic\PycharmProjects\PythonCourse" />
@@ -100,7 +87,8 @@
       <workItem from="1695894329683" duration="447000" />
       <workItem from="1695894798253" duration="7000" />
       <workItem from="1695951756660" duration="1022000" />
-      <workItem from="1695952796255" duration="154000" />
+      <workItem from="1695952796255" duration="795000" />
+      <workItem from="1695975600122" duration="411000" />
     </task>
     <task id="LOCAL-00001" summary="搬走所有文件">
       <option name="closed" value="true" />
@@ -142,7 +130,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695883754446</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="（优化）">
+      <option name="closed" value="true" />
+      <created>1695952958814</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1695952958814</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,7 +190,8 @@
     <MESSAGE value="搬走所有文件" />
     <MESSAGE value="DELETE" />
     <MESSAGE value="（整理作业文件）" />
-    <option name="LAST_COMMIT_MESSAGE" value="（整理作业文件）" />
+    <MESSAGE value="（优化）" />
+    <option name="LAST_COMMIT_MESSAGE" value="（优化）" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
