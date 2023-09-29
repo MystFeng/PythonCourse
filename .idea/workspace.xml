@@ -4,41 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b628a868-152a-49a6-b5cc-ed2bfcae2005" name="更改" comment="DELETE">
-      <change afterPath="$PROJECT_DIR$/100以内质数.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5.10.2元组添加元素.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5.10.3统计字符串里字符各数量.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5.10.4删除列表里重复数据.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5.7.1青春有你.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9月13日/5.10.1合并list.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9月13日/5.4.1十大歌手.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9月13日/实验2.1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9月13日/实验2.2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9月20日/实验3.1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9月20日/实验3.2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9月20日/实验3.3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9月6日/实验1.1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9月6日/实验1.2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/打印棋盘.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/敏感词替换.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/文本进度条.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/检查切换字符串.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/百度百科.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/计算器.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/计算小写字母的数量.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/逢7拍手.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/PythonCourse.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/9月27日/6.9学生管理系统.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/9月27日/实验4.1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/9月27日/实验4.2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/9月27日/实验4.3.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/9月27日/实验4.4.py" beforeDir="false" />
+    <list default="true" id="b628a868-152a-49a6-b5cc-ed2bfcae2005" name="更改" comment="（整理作业文件）">
+      <change afterPath="$PROJECT_DIR$/9月13日/5.10.4删除列表里重复数据.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/100以内质数.py" beforeDir="false" afterPath="$PROJECT_DIR$/9月6日/100以内质数.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/5.10.2元组添加元素.py" beforeDir="false" afterPath="$PROJECT_DIR$/9月20日/5.10.2元组添加元素.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/5.10.3统计字符串里字符各数量.py" beforeDir="false" afterPath="$PROJECT_DIR$/9月20日/5.10.3统计字符串里字符各数量.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/5.10.4删除列表里重复数据.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5.7.1青春有你.py" beforeDir="false" afterPath="$PROJECT_DIR$/9月20日/5.7.1青春有你.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/打印棋盘.py" beforeDir="false" afterPath="$PROJECT_DIR$/9月6日/打印棋盘.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/敏感词替换.py" beforeDir="false" afterPath="$PROJECT_DIR$/9月13日/敏感词替换.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/文本进度条.py" beforeDir="false" afterPath="$PROJECT_DIR$/9月6日/文本进度条.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/检查切换字符串.py" beforeDir="false" afterPath="$PROJECT_DIR$/9月13日/检查切换字符串.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/百度百科.py" beforeDir="false" afterPath="$PROJECT_DIR$/9月6日/百度百科.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/计算器.py" beforeDir="false" afterPath="$PROJECT_DIR$/9月6日/计算器.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/计算小写字母的数量.py" beforeDir="false" afterPath="$PROJECT_DIR$/9月13日/计算小写字母的数量.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/逢7拍手.py" beforeDir="false" afterPath="$PROJECT_DIR$/9月6日/逢7拍手.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +48,7 @@
 }</component>
   <component name="ProjectId" id="2W0s4dINm4UWloOP3fiaJrpfUD8" />
   <component name="ProjectLevelVcsManager">
+    <OptionsSetting value="false" id="Update" />
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -86,7 +68,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "reference.settings.ide.settings.new.ui"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   },
   "keyToStringList": {
     "DatabaseDriversLRU": [
@@ -99,6 +81,9 @@
       <recent name="C:\Users\delic\PycharmProjects\PythonCourse" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\delic\PycharmProjects\PythonCourse\9月13日" />
+      <recent name="C:\Users\delic\PycharmProjects\PythonCourse\9月6日" />
+      <recent name="C:\Users\delic\PycharmProjects\PythonCourse\9月20日" />
       <recent name="C:\Users\delic\PycharmProjects\PythonCourse" />
     </key>
   </component>
@@ -111,7 +96,11 @@
       <option name="presentableId" value="Default" />
       <updated>1695880641831</updated>
       <workItem from="1695880642870" duration="505000" />
-      <workItem from="1695881158357" duration="1962000" />
+      <workItem from="1695881158357" duration="2758000" />
+      <workItem from="1695894329683" duration="447000" />
+      <workItem from="1695894798253" duration="7000" />
+      <workItem from="1695951756660" duration="1022000" />
+      <workItem from="1695952796255" duration="154000" />
     </task>
     <task id="LOCAL-00001" summary="搬走所有文件">
       <option name="closed" value="true" />
@@ -137,7 +126,23 @@
       <option name="project" value="LOCAL" />
       <updated>1695882381909</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="（整理作业文件）">
+      <option name="closed" value="true" />
+      <created>1695883737760</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1695883737760</updated>
+    </task>
+    <task id="LOCAL-00005" summary="（整理作业文件）">
+      <option name="closed" value="true" />
+      <created>1695883754446</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1695883754446</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -188,6 +193,12 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="搬走所有文件" />
     <MESSAGE value="DELETE" />
-    <option name="LAST_COMMIT_MESSAGE" value="DELETE" />
+    <MESSAGE value="（整理作业文件）" />
+    <option name="LAST_COMMIT_MESSAGE" value="（整理作业文件）" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/PythonCourse$5_10_4.coverage" NAME="5.10.4删除列表里重复数据 覆盖结果" MODIFIED="1695952725943" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/9月13日" />
   </component>
 </project>

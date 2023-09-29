@@ -1,9 +1,9 @@
 player_num = {}
 li = []
-print('请输入exit表示选手成绩录入完成')
+print('请输入q表示选手成绩录入完成')
 while True:
     name = input("请输入选手名字：\n")
-    if name == 'exit':
+    if name == 'q':
         break
     score = float(input("请输入选手票数：\n"))
     player_num[name] = score
