@@ -1,13 +1,20 @@
 def input_nums():
     counter = 1
-    numbers = []
+    numbers_list = []
     while True:
-        user_input = input(f'请输入第{counter}个实数（输入q结束）：')
-        if user_input == 'q':
-            break
-        numbers.append(float(user_input))
-        counter += 1
-    return numbers
+        user_input = input(f'请输入第{counter}个实数（输入q开始计算）：')
+        if user_input.lower() == 'q':
+            if not numbers_list:
+                print("你还没有输入任何数字。")
+            else:
+                break
+        elif not user_input.isdigit():
+            print('须输入有效数字。')
+        else:
+            numbers_list.append(float(user_input))
+            counter += 1
+            print(f"已添加{user_input}。")
+    return numbers_list
 
 
 def handle_nums(nums):
@@ -23,6 +30,5 @@ def handle_nums(nums):
 
 
 if __name__ == "__main__":
-    numbers = input_nums()
-    result = handle_nums(numbers)
-    print(result)
+    result = handle_nums(input_nums())
+    print(f"最终的结果是：{result}")
