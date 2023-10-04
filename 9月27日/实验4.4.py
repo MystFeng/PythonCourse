@@ -2,7 +2,7 @@ def input_nums():
     counter = 1
     numbers_list = []
     while True:
-        user_input = input(f'请输入第{counter}个实数（输入q开始计算）：')
+        user_input = input(f'请输入第{counter}个数：')
         if user_input.lower() == 'q':
             if not numbers_list:
                 print("你还没有输入任何数字。")
@@ -25,10 +25,12 @@ def handle_nums(nums):
         if i > average_num:
             updated_nums.append(i)
     updated_nums.sort()
-    updated_nums = tuple(updated_nums)
     return updated_nums
 
 
 if __name__ == "__main__":
-    result = handle_nums(input_nums())
-    print(f"最终的结果是：{result}")
+    print('（开始处理一组实数，输出其平均值和大于平均值的数，输入q开始计算）')
+    raw_nums = input_nums()
+    result = handle_nums(raw_nums)
+    print(raw_nums)
+    print(f"最终结果是：{result}")

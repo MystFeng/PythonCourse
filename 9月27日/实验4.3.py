@@ -9,7 +9,7 @@ def count(str):
             upper_count += 1
         elif char.islower():
             lower_count += 1
-    return (upper_count, lower_count)
+    return tuple(upper_count, lower_count)
 
 
 if __name__ == "__main__":
