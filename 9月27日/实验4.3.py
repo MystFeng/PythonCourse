@@ -1,17 +1,10 @@
-str = 'ppssAQWssd'
-
-
-def count(str):
-    upper_count = 0
-    lower_count = 0
-    for char in str:
-        if char.isupper():
-            upper_count += 1
-        elif char.islower():
-            lower_count += 1
+def count(s):
+    upper_count = sum(1 for char in s if char.isupper())
+    lower_count = sum(1 for char in s if char.islower())
     return upper_count, lower_count
 
 
 if __name__ == "__main__":
-    result = tuple(count(str))
+    str = 'ppssAQWssd'
+    result = count(str)
     print(result)
