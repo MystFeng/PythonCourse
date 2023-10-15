@@ -16,4 +16,4 @@ my_circle = Circle(5)
 perimeter = my_circle.get_perimeter()
 area = my_circle.get_area()
 
-print(f"圆的周长为: {perimeter}。面积为: {area}")
+print(f"圆的周长为: {perimeter:.2f},面积为: {area}")
