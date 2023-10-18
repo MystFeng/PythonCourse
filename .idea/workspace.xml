@@ -5,9 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b628a868-152a-49a6-b5cc-ed2bfcae2005" name="更改" comment="commit">
-      <change afterPath="$PROJECT_DIR$/10月11日/8.13.1求圆的周长和面积.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10月11日/8.13.2课程.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10月18日/实验5.1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10月18日/实验5.2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/ProjectSettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/PythonCourse/FileContentIndex/9bb80a63-e8fc-4d7b-9e8d-cf6320153054.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/PythonCourse/v17/.wsuo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/VSWorkspaceState.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/slnx.sqlite" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +68,7 @@
     &quot;ToolWindow运行.ShowToolbar&quot;: &quot;false&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;ignore_missing_gitignore&quot;: &quot;true&quot;,
@@ -71,7 +77,7 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.general&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -93,35 +99,6 @@
       <recent name="C:\Users\delic\PycharmProjects\PythonCourse\9月20日" />
       <recent name="C:\Users\delic\PycharmProjects\PythonCourse" />
     </key>
-  </component>
-  <component name="RunManager">
-    <configuration name="实验4.4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PythonCourse" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/9月27日" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/9月27日/实验4.4.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Python.实验4.4" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -178,6 +155,23 @@
       <workItem from="1697021844587" duration="4000" />
       <workItem from="1697022170818" duration="5000" />
       <workItem from="1697092142656" duration="2426000" />
+      <workItem from="1697102967428" duration="702000" />
+      <workItem from="1697103931968" duration="27000" />
+      <workItem from="1697158869241" duration="643000" />
+      <workItem from="1697248777918" duration="595000" />
+      <workItem from="1697258096422" duration="37000" />
+      <workItem from="1697293809478" duration="1046000" />
+      <workItem from="1697349264337" duration="146000" />
+      <workItem from="1697351578966" duration="319000" />
+      <workItem from="1697361721104" duration="234000" />
+      <workItem from="1697376072463" duration="21000" />
+      <workItem from="1697376098802" duration="12000" />
+      <workItem from="1697376694381" duration="85000" />
+      <workItem from="1697460684713" duration="42000" />
+      <workItem from="1697468373654" duration="37000" />
+      <workItem from="1697623300724" duration="1146000" />
+      <workItem from="1697625087417" duration="3782000" />
+      <workItem from="1697629603442" duration="1718000" />
     </task>
     <task id="LOCAL-00001" summary="搬走所有文件">
       <option name="closed" value="true" />
@@ -275,7 +269,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696605279046</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="commit">
+      <option name="closed" value="true" />
+      <created>1697103208717</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1697103208717</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -312,15 +314,19 @@
     <MESSAGE value="（优化）" />
     <MESSAGE value="commit" />
     <option name="LAST_COMMIT_MESSAGE" value="commit" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/PythonCourse$4_4.coverage" NAME="实验4.4 覆盖结果" MODIFIED="1696578592326" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/9月27日" />
+    <SUITE FILE_PATH="coverage/PythonCourse$8_13_2.coverage" NAME="8.13.2课程 覆盖结果" MODIFIED="1697293871801" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10月11日" />
+    <SUITE FILE_PATH="coverage/PythonCourse$4_4.coverage" NAME="实验4.4 覆盖结果" MODIFIED="1697103939907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/9月27日" />
+    <SUITE FILE_PATH="coverage/PythonCourse$5_1.coverage" NAME="实验5.1 覆盖结果" MODIFIED="1697630398831" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10月18日" />
     <SUITE FILE_PATH="coverage/PythonCourse$5_10_4.coverage" NAME="5.10.4删除列表里重复数据 覆盖结果" MODIFIED="1695952725943" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/9月13日" />
     <SUITE FILE_PATH="coverage/PythonCourse$2_2.coverage" NAME="实验2.2 覆盖结果" MODIFIED="1696035106162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/9月13日" />
-    <SUITE FILE_PATH="coverage/PythonCourse$4_3.coverage" NAME="实验4.3 覆盖结果" MODIFIED="1697093257569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/9月27日" />
-    <SUITE FILE_PATH="coverage/PythonCourse$8_13_1.coverage" NAME="8.13.1求圆的周长和面积 覆盖结果" MODIFIED="1697093261618" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10月11日" />
+    <SUITE FILE_PATH="coverage/PythonCourse$4_3.coverage" NAME="实验4.3 覆盖结果" MODIFIED="1697102996736" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/9月27日" />
+    <SUITE FILE_PATH="coverage/PythonCourse$8_13_1.coverage" NAME="8.13.1求圆的周长和面积 覆盖结果" MODIFIED="1697103029930" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10月11日" />
     <SUITE FILE_PATH="coverage/PythonCourse$scratch.coverage" NAME="scratch 覆盖结果" MODIFIED="1696825573182" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
+    <SUITE FILE_PATH="coverage/PythonCourse$11.coverage" NAME="11 覆盖结果" MODIFIED="1697624873627" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10月11日" />
   </component>
 </project>
