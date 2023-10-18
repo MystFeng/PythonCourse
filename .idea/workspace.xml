@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b628a868-152a-49a6-b5cc-ed2bfcae2005" name="更改" comment="commit">
-      <change afterPath="$PROJECT_DIR$/10月18日/学生管理系统函数版.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10月18日/学生管理系统类版.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10月18日/Python实验六 学生管理系统（类版本）.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10月18日/学生管理系统类版.py" beforeDir="false" afterPath="$PROJECT_DIR$/10月18日/学生管理系统类版.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,6 +95,7 @@
       <recent name="C:\Users\delic\PycharmProjects\PythonCourse" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\delic\PycharmProjects\PythonCourse\10月18日" />
       <recent name="C:\Users\delic\PycharmProjects\PythonCourse\9月13日" />
       <recent name="C:\Users\delic\PycharmProjects\PythonCourse\9月6日" />
       <recent name="C:\Users\delic\PycharmProjects\PythonCourse\9月20日" />
@@ -174,7 +175,7 @@
       <workItem from="1697625087417" duration="3782000" />
       <workItem from="1697629603442" duration="3149000" />
       <workItem from="1697633350861" duration="49000" />
-      <workItem from="1697635926981" duration="871000" />
+      <workItem from="1697635926981" duration="1475000" />
     </task>
     <task id="LOCAL-00001" summary="搬走所有文件">
       <option name="closed" value="true" />
@@ -304,7 +305,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697633383857</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="commit">
+      <option name="closed" value="true" />
+      <created>1697637056783</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1697637056783</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

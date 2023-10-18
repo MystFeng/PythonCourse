@@ -15,13 +15,10 @@ class Student:
     def add_stu_info(self):
         n = int(input('请输入添加学生人数:'))
         for i in range(n):
-            new_name = input(f'请输入第{i + 1}个学生的姓名:')
-            new_sex = input(f'请输入第{i + 1}个学生的性别:')
-            new_phone = input(f'请输入第{i + 1}个学生的手机号码:')
             new_info = dict()
-            new_info['name'] = new_name
-            new_info['sex'] = new_sex
-            new_info['phone'] = new_phone
+            new_info['name'] = input(f'请输入第{i + 1}个学生的姓名:')
+            new_info['sex'] = input(f'请输入第{i + 1}个学生的性别:')
+            new_info['phone'] = input(f'请输入第{i + 1}个学生的手机号码:')
             self.stu_info.append(new_info)
             print(f"第{i + 1}个学生信息录入完毕")
 
