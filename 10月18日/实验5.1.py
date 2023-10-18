@@ -9,7 +9,7 @@ class people:
         self.__weight = weight
 
     def speak(self):
-        print(f"name:{self.name}, age:{self.age}, weight:{self.__weight}")
+        print(f"名字：{self.name}, 年龄：{self.age}, 体重：{self.__weight}")
 
 
 class student(people):
@@ -19,11 +19,11 @@ class student(people):
 
     def speak(self):
         super().speak()
-        print(f"grade:{self.grade}")
+        print(f"成绩：{self.grade}")
 
 
-# Jack = student("Jack", 30, 70, 100)
-# Jack.speak()
+Jack = student("Jack", 30, 70, 100)
+Jack.speak()
 
 
 # 在以上两个类people和student的基础上，再定义一个类singer，不继承自任何类。此类拥有自己的公有属性song。
@@ -36,7 +36,7 @@ class singer:
         self.song = song
 
     def speak(self):
-        print(f"song:{self.song}")
+        print(f"歌曲：{self.song}")
 
 
 class sample(student, singer):
@@ -49,5 +49,5 @@ class sample(student, singer):
         singer.speak(self)
 
 
-Amy = sample("Amy", 25, 65, 90, "Good Song")
+Amy = sample("Amy", 25, 65, 90, "Beautiful Song")
 Amy.speak()
