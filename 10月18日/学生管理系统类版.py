@@ -1,3 +1,4 @@
+# 由函数版改写
 class Student:
     def __init__(self):
         self.stu_info = []
@@ -39,18 +40,18 @@ class Student:
 
     def modify_stu_info(self):
         if len(self.stu_info) != 0:
+            modified = False
             name = input('请输入要修改的学生的姓名：')
-            flag = 0
             for i in range(len(self.stu_info)):
                 if self.stu_info[i]["name"] == name:
                     new_sex = input('请输入要修改学生的性别:(男/女)')
                     new_phone = input('请输入要修改学生的手机号码:')
                     self.stu_info[i]['sex'] = new_sex
                     self.stu_info[i]['phone'] = new_phone
-                    flag = 1
+                    modified = True
                     print("成功修改学生信息")
                     break
-            if flag == 0:
+            if not modified:
                 print("未找到对应学生信息")
         else:
             print('学生信息表为空')
