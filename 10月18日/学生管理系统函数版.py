@@ -89,11 +89,11 @@ def main():
         elif key == '4':  # 查询所有学生信息
             show_stu_info()
         elif key == '0':
-            quit_confirm = input('亲，真的要退出么？(Yes or No):').lower()
-            if quit_confirm == 'yes':
+            quit_confirm = input('亲，真的要退出么？(Y/N):').lower()
+            if quit_confirm == 'Y':
                 print("谢谢使用！")
                 break
-            elif quit_confirm == 'no':
+            elif quit_confirm == 'N':
                 continue
             else:
                 print('输入有误!')
