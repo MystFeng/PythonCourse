@@ -49,5 +49,5 @@ class sample(student, singer):
         singer.speak(self)
 
 
-Amy = sample("Amy", 25, 65, 90, "Beautiful Song")
+Amy = sample("Amy", 25, 65, 90, "七里香")
 Amy.speak()
