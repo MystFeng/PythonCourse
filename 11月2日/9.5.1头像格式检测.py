@@ -1,6 +1,6 @@
 import os
 
-filename = input("输入文件名称：")
+avatar = input("输入文件名称：")
 allowed_formats = ['.jpg', '.jpeg', '.png']
 
 
@@ -12,7 +12,7 @@ def check_avatar_format(name):
 
 
 try:
-    result = check_avatar_format(filename)
+    result = check_avatar_format(avatar)
     print(result)
 except Exception as e:
     print(e)
