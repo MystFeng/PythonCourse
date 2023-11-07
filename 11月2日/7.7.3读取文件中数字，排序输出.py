@@ -1,6 +1,12 @@
-newfile = open("number", "r")
-numbers = newfile.read()
+def num_sort(file):
+    num_li = []
+    with open(file, 'r', encoding='utf8') as file:
+        for line in file:
+            nums = line.strip().split()
+            num_li.extend(map(int, nums))
+    num_li.sort()
+    return num_li
 
-numbers_list = list(numbers)
-numbers_list.sort()
-print(numbers_list)
+
+sorted_numbers = num_sort('num')
+print(*sorted_numbers, sep="\n")
