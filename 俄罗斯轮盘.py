@@ -94,7 +94,7 @@ def main():
     winnings = russian_roulette(loader, bet, additional_behavior_probability, consequence_probability)
 
     total_money += winnings
-    print(f"\n你 {'赚取了' if winnings > 0 else '痛失'} {abs(winnings)} 金币。")
+    print(f"\n你 {'赚取了' if winnings > 0 else '失去了'} {abs(winnings)} 金币。")
 
 
 if __name__ == "__main__":
@@ -103,22 +103,20 @@ if __name__ == "__main__":
     time.sleep(1)
     print("酒馆里昏暗的灯光勉强照亮了角落，桌上散乱的杯具和破旧的扑克牌散发着难闻的味道")
     time.sleep(1)
-    print("酒味浓郁，让人不禁觉得在这里花朵会被烈酒泡发，黄金也会被烈酒融化")
+    print("酒味浓郁，我在一张桌上喝醉了，一个寻欢作乐的人走来，坐到我的旁边。")
     time.sleep(1)
     print("...")
     time.sleep(1)
     print("...")
     time.sleep(1)
-    print("\"黄金！\"我抬头，看到了本与我无缘的东西...")
+    print("\"黄金！\"我抬头，看到了与我无缘的东西...")
     time.sleep(1)
-    print("好多黄金...而在黄金的背后是一个戴着帽子的家伙。我对那个人没有兴趣")
+    print("好多黄金...而在黄金的背后是一个戴着帽子的家伙。我知道是他叫醒了我，因为他开了一枪。")
     time.sleep(1)
-    print("更重要的是那个人真的有黄金！而且...他是不是还有把手枪啊？")
+    print("但这些并不重要。重要的是，那个人居然有黄金！")
     time.sleep(1)
-    print("\"朋友，请你...吃一枪怎么样？\"桌对面的人向我伸来一把枪\n")
+    print("\"朋友，吃一枪吧！\"桌对面的人向我伸来一把枪。\"还有黄金！\"\n")
     time.sleep(1)
-    print("他把枪里的子弹拔出，然后一并交到了我手上。")
-    time.sleep(1)
-    print("我答应了。")
+    print("我...拿起了枪。")
     time.sleep(1)
     main()
