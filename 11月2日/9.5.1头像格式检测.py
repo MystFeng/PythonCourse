@@ -1,6 +1,6 @@
 import os
 
-filename = input()
+filename = input("输入文件名称：")
 allowed_formats = ['.jpg', '.jpeg', '.png']
 
 
