@@ -1,36 +1,60 @@
 import random
 import time
 
+pistol_magazine = [0, 0, 0, 0, 0, 0]
+game_rounds = 0
+firing_probability = 1
+people_in_bar = {
+    1: '你的庄家',
+    2: '看似善良的修女',
+    3: '迫不及待想洗脚的老奶奶',
+}
 
-class Pistol:
-    magazine = [0, 0, 0, 0, 0, 0]
-    game_rounds = 0
-    firing_probability = 1
+
+def story():
+    #     time.sleep(0.5)
+    #     print("我是个酒鬼，日复一日地在酒馆里碌碌无为。")
+    #     time.sleep(2)
+    #     print("酒馆里昏暗的灯光勉强照亮了角落，桌上散乱的杯具和破旧的扑克牌散发着难闻的味道。")
+    #     time.sleep(2)
+    #     print("我在一张酒味浓郁的桌上醉倒，没有注意到一个正在寻欢作乐的人坐到我的旁边。")
+    #     time.sleep(2)
+    #     print("...")
+    #     time.sleep(2)
+    #     print("......")
+    #     time.sleep(2)
+    #     print("\"黄金！\"我抬头，看到了与我无缘的东西...")
+    #     time.sleep(2)
+    #     print("好多黄金...而在黄金的背后是一个戴着帽子的家伙。我知道是他叫醒了我，因为他在我旁边开了一枪。")
+    #     time.sleep(2)
+    #     print("但这些并不重要。重要的是，那个人居然有黄金！")
+    #     time.sleep(2)
+    #     print("\"朋友，吃一枪吧！\"桌对面的人向我伸来一把枪。\"还有黄金！\"")
+    #     time.sleep(2)
+    #     print("我...拿起了枪。")
+    #     time.sleep(2)
+    pass
 
 
-def place_bet():
-    print("\"该上子弹了...或者找别人为你装弹。")
-    num_bullets = int(input("你想赌几颗子弹呢？"))
-    if num_bullets < 0 or num_bullets > 6:
-        print("\"滚！\"，庄家啐了你一脸酒。")
-        return place_bet()
-    return num_bullets
+def load_magazine():
+    pass
+
+
+def load():
+    print("我该装子弹了...或者我可以找别人来为我装弹。")
+    bet_bullets = int(input("你想赌几颗子弹呢？"))
+    if bet_bullets < 0 or bet_bullets > 6:
+        print("\"滚！\"，庄家啐了我一脸酒。似乎我开了一个程序员才能理解的玩笑，可惜在这里并不好笑。")
+        return load()
+    else:
+        random_indices = random.sample(range(len(pistol_magazine)), bet_bullets)
+        for index in random_indices:
+            pistol_magazine[index] = 1
+        print()
 
 
 def choose_loader():
     print("你看中了酒馆里的一个人，他/她就是：")
-
-    people_in_bar = {
-        1: '你的庄家',
-        2: '看似善良的修女',
-        3: '迫不及待想洗脚的老奶奶',
-        4: '威猛的猎人',
-        5: '调皮的雌小鬼',
-        6: '对雌小鬼满脸堆笑的杂鱼大叔',
-        7: '被灌醉的小正太',
-        8: '正在对小正太上下其手的成熟阿姨',
-        9: ''
-    }
 
     for index, person in people_in_bar.items():
         print(f"{index}. {person}")
@@ -67,56 +91,28 @@ def russian_roulette(player_type, bet, additional_behavior_probability, conseque
 
 
 def main():
-    total_money = 100  # 初始金钱
-    if total_money > 0:
-        print(f"\n现在有 {total_money} 金币。")
-    else:
+    money = 100  # 初始金钱
+    if money > 0:
+        print(f"现在有{money}元。")
+    elif money == 0:
         print("现在没钱了。")
+    elif money < 0:
+        print(f"还欠{abs(money)}元。")
 
-    bet = place_bet()
-    total_money -= bet
+    bet = load()
     loader = choose_loader()
-    additional_behavior_probability = float(input("请输入装弹者的额外行为概率（0 到 1 之间的小数）："))
-    consequence_probability = float(input("请输入额外行为导致的后果概率（0 到 1 之间的小数）："))
+    additional_behavior_probability = 0.00
+    consequence_probability = 0.00
 
-    print(f"你选择让{loader} 帮你装弹...")
-    if loader == "老奶奶" and random.random() < additional_behavior_probability:
-        print("老奶奶往枪里抹了一些胶，增加了卡壳概率！")
-        magazine.append(0)  # 增加一个没有子弹的弹膛
-
+    print(f"{loader}会帮你装弹...")
     time.sleep(2)
-
-    if bet < 2 and loader == "修女" and random.random() < additional_behavior_probability:
-        print("修女双手抱握，正在为你祈祷。")
-    elif bet >= 5 and loader == "猎人" and random.random() < additional_behavior_probability:
-        print("猎人猛拍桌子，放声大笑，酒沫从嘴里喷到胡子上。")
 
     winnings = russian_roulette(loader, bet, additional_behavior_probability, consequence_probability)
 
-    total_money += winnings
+    money += winnings
     print(f"\n你 {'赚取了' if winnings > 0 else '失去了'} {abs(winnings)} 金币。")
 
 
 if __name__ == "__main__":
-    time.sleep(0.5)
-    print("我是个酒鬼，日复一日地在酒馆里碌碌无为")
-    time.sleep(1)
-    print("酒馆里昏暗的灯光勉强照亮了角落，桌上散乱的杯具和破旧的扑克牌散发着难闻的味道")
-    time.sleep(1)
-    print("酒味浓郁，我在一张桌上喝醉了，一个寻欢作乐的人走来，坐到我的旁边。")
-    time.sleep(1)
-    print("...")
-    time.sleep(1)
-    print("...")
-    time.sleep(1)
-    print("\"黄金！\"我抬头，看到了与我无缘的东西...")
-    time.sleep(1)
-    print("好多黄金...而在黄金的背后是一个戴着帽子的家伙。我知道是他叫醒了我，因为他开了一枪。")
-    time.sleep(1)
-    print("但这些并不重要。重要的是，那个人居然有黄金！")
-    time.sleep(1)
-    print("\"朋友，吃一枪吧！\"桌对面的人向我伸来一把枪。\"还有黄金！\"\n")
-    time.sleep(1)
-    print("我...拿起了枪。")
-    time.sleep(1)
+    story()
     main()
