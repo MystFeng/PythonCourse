@@ -1,6 +1,7 @@
 import random
 import time
 
+money = 100  # 初始金钱
 pistol_magazine = [0, 0, 0, 0, 0, 0]
 game_rounds = 0
 firing_probability = 1
@@ -36,12 +37,7 @@ def story():
     pass
 
 
-def load_magazine():
-    pass
-
-
 def load():
-    print("我该装子弹了...或者我可以找别人来为我装弹。")
     bet_bullets = int(input("你想赌几颗子弹呢？"))
     if bet_bullets < 0 or bet_bullets > 6:
         print("\"滚！\"，庄家啐了我一脸酒。似乎我开了一个程序员才能理解的玩笑，可惜在这里并不好笑。")
@@ -52,20 +48,14 @@ def load():
             pistol_magazine[index] = 1
         print()
 
-
-def choose_loader():
     print("你看中了酒馆里的一个人，他/她就是：")
-
     for index, person in people_in_bar.items():
         print(f"{index}. {person}")
-
-    choice = int(input())
-
-    loader = people_in_bar.get(choice)
+    loader = people_in_bar.get(int(input()))
     if loader is None:
         print(
             "有这号人吗？你仰起酸胀的脖子，回忆了一下前世的记忆。\n"
-            "然后你发现你他娘的根本就没有前世的记忆！\n看来你得重新选了。")
+            "然后你发现你他娘的根本就没有前世的记忆！\n看来要重新选了。")
         return choose_loader()
     return loader
 
@@ -90,8 +80,7 @@ def russian_roulette(player_type, bet, additional_behavior_probability, conseque
     return 0  # 返回赌注
 
 
-def main():
-    money = 100  # 初始金钱
+def balance():
     if money > 0:
         print(f"现在有{money}元。")
     elif money == 0:
@@ -99,6 +88,11 @@ def main():
     elif money < 0:
         print(f"还欠{abs(money)}元。")
 
+
+def main():
+    balance()
+
+    print("我该装子弹了...或者我可以找别人来为我装弹。")
     bet = load()
     loader = choose_loader()
     additional_behavior_probability = 0.00
@@ -106,9 +100,7 @@ def main():
 
     print(f"{loader}会帮你装弹...")
     time.sleep(2)
-
     winnings = russian_roulette(loader, bet, additional_behavior_probability, consequence_probability)
-
     money += winnings
     print(f"\n你 {'赚取了' if winnings > 0 else '失去了'} {abs(winnings)} 金币。")
 
