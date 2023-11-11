@@ -56,7 +56,7 @@ def choose_loader():
     choose = int(input("...会是谁呢？")) - 1
     if list(characters.keys())[choose] is None:
         time.sleep(0.5)
-        print(f"我总在回忆{choose}这个号码，却发现它是子虚乌有！选错了，F**k...\n")
+        print(f"我总在回忆{choose}这个号码，却发现它是子虚乌有。选错了！F**k...\n")
         return choose_loader()
     else:
         loader = list(characters.keys())[choose]
@@ -100,7 +100,6 @@ def main():
     # time.sleep(1)
     # print("好醉啊！得找人给我装子弹...")
     choose_loader()
-
     load()
 
     time.sleep(2)
