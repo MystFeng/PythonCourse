@@ -5,18 +5,21 @@ characters = {
     '庄家': {
         'title': "桌子对面的",
         'default': "庄家看着你，冷冷地说：\"再玩一把吗？\"",
+        'contingency': "",
         'win': "庄家笑着说：\"你真是个幸运儿！\"",
         'lose': "庄家嘲讽地说：\"运气不太好啊！\"",
     },
     '修女': {
         'title': "看似善良的",
         'default': "修女微笑着对你说：\"愿神与你同在。\"",
+        'contingency': "",
         'win': "修女感叹道：\"神一定在庇佑着你！\"",
         'lose': "修女安慰你说：\"有时候运气就是这样。\"",
     },
     '老奶奶': {
         'title': "想找人给她洗洗脚的",
         'default': "老奶奶神秘地笑着：\"生活就像一盒巧克力，你永远不知道下一颗是什么味道。\"",
+        'contingency': "老奶奶在洗脚的时候，不经意地碰到了枪。\n你发现枪稍微移动了一下，但你决定什么也不说。",
         'win': "老奶奶高兴地说：\"看来神听到了我的祈祷！\"",
         'lose': "老奶奶叹了口气：\"运气不太好啊，年轻人。\"",
     },
@@ -26,6 +29,7 @@ game_round = 0  # 回合数
 loader = 0  # 装弹者
 wager = 0  # 赌注
 money = 100  # 金钱
+winnings = 0  # 赢钱
 pistol_magazine = [0, 0, 0, 0, 0, 0]  # 弹夹
 
 firing_probability = 1.00  # 手枪击发概率
@@ -65,8 +69,7 @@ def choose_loader():
 
 def russian_roulette(player_type, bet, additional_behavior_probability, consequence_probability):
     if player_type == "老奶奶":
-        print("老奶奶在洗脚的时候，不经意地碰到了枪。")
-        print("你发现枪稍微移动了一下，但你决定什么也不说。")
+        print("")
         time.sleep(1)
 
     for _ in range(6):
