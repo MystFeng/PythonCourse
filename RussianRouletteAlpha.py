@@ -32,6 +32,8 @@ money = 100  # 钱包
 winnings = 0  # 胜金
 
 pistol_magazine = [0, 0, 0, 0, 0, 0]  # 弹夹
+trigger_shoe = 0  #
+fired = False
 firing_probability = 1.00  # 手枪击发概率
 additional_behavior_probability = 0.00  # 意外事件概率
 consequence_probability = 0.00  # 击发后果概率
@@ -44,13 +46,20 @@ def load():
         for i in random.sample(range(len(pistol_magazine)), bet):
             pistol_magazine[i] = 1
         print(f"{loader}装入了子弹，然后把枪放到你的手上。")
+        time.sleep(0.5)
+
     else:
         if bet > 6:
             print(f"想寻死的话6发就够了。{bet}？装不下这么多。")
+            time.sleep(0.5)
+
         else:
             print(f"\"既然你要反着装子弹，我就成全你！你每装反一发，你就被扣50。\"不知从何处传来的声音让你开始懊悔...")
+            time.sleep(0.5)
 
         print("\"滚。\"，庄家啐了我一脸的酒。")
+        time.sleep(0.5)
+
         return load()
 
 
@@ -69,16 +78,7 @@ def choose_loader():
     else:
         loader = list(characters.keys())[choose]
         print(f"{loader}会帮你装弹...")
-
-
-def storyteller():
-    time.sleep(0.5)
-    print(f"{characters[loader]['default']}")
-
-
-def russian_roulette():
-    storyteller()
-    print("你闭上了眼睛。")
+        time.sleep(0.5)
 
 
 def check_cash():
@@ -88,6 +88,45 @@ def check_cash():
         print(f"现在没钱了。")
     elif money < 0:
         print(f"还欠{abs(money)}元。")
+
+
+def storyteller():
+    time.sleep(0.5)
+    print(f"{characters[loader]['default']}")
+
+
+def flip_the_wheel(flip):
+    global trigger_shoe
+    if flip.lower() == "y":
+        trigger_shoe = random.randint(0, 5)
+        print("你用手拨弄了一下。随着轮子缓缓停下，你开始默默地祈祷。")
+    else:
+        print("算了，你把枪直接顶到了太阳穴上。")
+
+
+def trigger_pull():
+    global fired
+    fired = pistol_magazine[trigger_shoe] == 1
+
+
+def russian_roulette():
+    print("你闭上了眼睛。")
+    time.sleep(0.5)
+    flip_the_wheel(input("我在思考是否要拨动一下轮子。Y/N:"))
+    time.sleep(0.5)
+    print("我心跳如鼓，紧握枪柄的手掌中满是汗水，我扣下扳机。")
+    time.sleep(2)
+    trigger_pull()
+    if fired:
+        print("砰！")
+        time.sleep(0.5)
+        print("鲜红的美酒从我的太阳穴里喷涌而出。我死了。")
+        time.sleep(0.5)
+    else:
+        print("什么嘛！原来是虚惊一场！")
+        time.sleep(1)
+        print("试玩版游戏结束，谢谢你的参与！还请期待今后的正式版本。")
+        time.sleep(0.5)
 
 
 def main():
@@ -127,7 +166,6 @@ def story():
     # time.sleep(2)
     # print("我...拿起了枪。")
     # time.sleep(2)
-
 
 
 if __name__ == "__main__":
