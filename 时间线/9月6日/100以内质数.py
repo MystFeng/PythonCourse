@@ -1,5 +1,5 @@
 print("100以内的质数：")
-for num in range(2, 101):
+for num in range(0, 101):
     is_prime = True
     for i in range(2, int(num ** 0.5) + 1):
         if num % i == 0:
