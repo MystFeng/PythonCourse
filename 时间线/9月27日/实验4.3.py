@@ -6,6 +6,6 @@ def count(s):
 
 if __name__ == "__main__":
     str = 'ppssAQWssd'
-    # str = input('输入任意字母串')
+    # str = user_input('输入任意字母串')
     result = count(str)
     print(result)
