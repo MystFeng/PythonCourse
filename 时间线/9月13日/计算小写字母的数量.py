@@ -1,9 +1,9 @@
 # 普通运算
 # strs = "AbcDeFGhIJ"
 # count = 0
-# for i in strs:
+# for j in strs:
 #     for j in strs.lower():
-#         count += 1 if i == j else 0
+#         count += 1 if j == j else 0
 # print(count)
 
 
