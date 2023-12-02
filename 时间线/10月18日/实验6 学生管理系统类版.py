@@ -62,8 +62,7 @@ class Student:
         print('序号    姓名    性别    手机号码')
         i = 1
         for tempInfo in self.stu_info:
-            print("%d    %s    %s    %s" % (i, tempInfo['name'],
-                                            tempInfo['sex'], tempInfo['phone']))
+            print("%d    %s    %s    %s" % (i, tempInfo['name'], tempInfo['sex'], tempInfo['phone']))
             i += 1
 
     def main(self):
