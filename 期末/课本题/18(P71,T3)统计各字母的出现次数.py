@@ -1,12 +1,9 @@
 str = 'skdaskerkjsalkj'
-result = {}
+count = {}
 for i in str:
-    if i in result:
-        result[i] += 1
+    if i in count:
+        count[i] += 1
     else:
-        result[i] = 1
-print(result)
+        count[i] = 1
 
-# 这是美化的写法
-# for key, value in result.items():
-#     print(f"{key}: {value}", end=', ')
+print(count)

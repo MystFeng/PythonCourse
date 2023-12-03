@@ -3,13 +3,14 @@ def input_nums():
     numbers_list = []
     while True:
         user_input = input(f'请输入第{counter}个数：')
-        if user_input.lower() == 'q':
-            if not numbers_list:
-                print("你还没有输入任何数字。")
+        if not user_input.isdigit():
+            if user_input.lower() == 'q':
+                if not numbers_list:
+                    print("你还没有输入任何数字。")
+                else:
+                    break
             else:
-                break
-        elif not user_input.isdigit():
-            print('须输入有效数字。')
+                print('须输入有效数字。')
         else:
             numbers_list.append(float(user_input))
             counter += 1
@@ -30,7 +31,7 @@ def handle_nums(nums):
 
 if __name__ == "__main__":
     print('（开始处理一组实数，输出其平均值和大于平均值的数，输入q开始计算）')
-    raw_nums = input_nums()
-    result = handle_nums(raw_nums)
-    print(raw_nums)
-    print(f"最终结果是：{result}")
+    raw = input_nums()
+    result = handle_nums(raw)
+    print(f"全部结果：{raw}")
+    print(f"最终结果：{result}")
