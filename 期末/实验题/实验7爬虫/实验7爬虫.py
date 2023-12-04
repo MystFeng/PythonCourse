@@ -1,8 +1,8 @@
-import openpyxl as o
+import openpyxl as pyxl
 import requests as req
 from lxml import etree
 
-new = o.Workbook()
+new = pyxl.Workbook()
 new.save("Excel//douban_content.xlsx")
 new_wa = new.active
 
