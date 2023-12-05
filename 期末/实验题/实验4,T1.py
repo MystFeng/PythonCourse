@@ -5,5 +5,4 @@ for i in str:
         count[i] += 1
     else:
         count[i] = 1
-
 print(count)
