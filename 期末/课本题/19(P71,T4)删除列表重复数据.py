@@ -4,7 +4,7 @@ li_two = []
 for i in li_one:
     if i not in li_two:
         li_two.append(i)
-
+li_one = li_two
 print(li_two)
 
 # 利用集合的不重复性

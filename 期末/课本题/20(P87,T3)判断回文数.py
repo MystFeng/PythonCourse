@@ -1,6 +1,8 @@
 a = str(input("输入数字判断回文数："))
-b = a[::-1]
-print("是回文数") if a == b else print("不是回文数")
+if a == a[::-1]:
+    print("是回文数")
+else:
+    print("不是回文数")
 
 # tips:
 # a[start:end:step]使用了一种切片
